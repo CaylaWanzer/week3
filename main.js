@@ -28,11 +28,11 @@ counter-- // decrement - decrease by one
 console.log(counter) 
 
 let level = 0 
-level += 5 // bump up by 5
+level += 5 // bump up by 5 increment 
 level += 5
 level += 5
 console.log(level)
-level -= 5 // bump down by 5
+level -= 5 // bump down by 5 decrement 
 console.log(level)
 
 console.log(3+5) // + ( plus) is addition 
