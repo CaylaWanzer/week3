@@ -1,29 +1,20 @@
-"use strict";
+// sample inputs
+let identifier = "value";
 
-var foodCost = 79.25;
-var tax = 6.54;
-var tip = 12.00;
-// calculation 
-var totalDue = foodCost + tax + tip;
-//Output
-// console.log("The total sue is " + totalDue)
-console.log("Food cost is " + foodCost + " and tax is " + tax);
-console.log("The tip is " + tip.toFixed(2));
-console.log("The total due is " + totalDue);
+let foodCost = 79.25;
+let tax = 6.54;
+let tip = (12).toFixed(2);
+// tip = tip.toFixed(2)
+// calculation
+let totalDue = foodCost + tax + tip;
+// output
+// console.log("The total due is " + totalDue);
+// console.log("The tip is " + tip);
+// console.log("total due is " + totalDue);
 
-
-var radious = 5;
-var areaOfCircle = Math.PI * (radious ** 2);
-console.log(areaOfCircle);
-
-var origanalPrice = 9.97;
-var newPrice = 12.50;
-var difference = Math.abs(origanalPrice - newPrice)
-console.log(difference);
-
-var radious = 5;
-var areaOfCircle = Math.PI * Math.pow(radious ** 2);
-console.log(areaOfCircle);
-
-var num = 5;
-var sqrtOfNum
+console.log(`
+    The food cost is ${foodCost} 
+    The tip is ${tip}
+    The tax is ${tax}
+    total due is + ${totalDue}
+`);
