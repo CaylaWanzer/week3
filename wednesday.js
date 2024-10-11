@@ -10,3 +10,8 @@ let p1 = 3 * 2
 let p2 = 9 * 10 
 let x3 = p1 + p2 
 console.log(x3)
+
+let numPeople = 118;
+let numDozenDonuts = numPeople / 12;
+numDozenDonuts = Math.ceil(numDozenDonuts);
+console.log(numDozenDonuts);
