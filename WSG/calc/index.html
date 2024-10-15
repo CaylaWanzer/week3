@@ -46,7 +46,7 @@
         const operator = answer.value = event.target.innerText.toLowerCase()
         const a =  Number(numberA.value)
         const b =  Number(numberB.value) 
-        answer.value = calc(a, b, operator);
+        answer.value = calc(a, b, operator).toFixed(2);
     }
     // const btnAdd = document.getElementById("btnAdd");
     btnAdd.addEventListener("click", onclick);
